@@ -22,4 +22,4 @@ puts "Enter Text :"
 text = gets.chomp
 puts "Enter Fixnum :"
 fixnum = gets.chomp.to_i
-puts (cc.caesar_cipher(text,5))
+puts (cc.caesar_cipher(text,fixnum))
